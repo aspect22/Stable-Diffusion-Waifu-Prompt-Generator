@@ -5,7 +5,7 @@
 With this simple program you will be able to generate a prompt for AI-Image-Generation.  
 It is made for mostly anime characters but probably also works with other types of characters.  
 **<u>This program will not generate a image, it will only give you the prompt you can use to generate the image!</u>**
-![](/Previews/program.png)
+![](/Previews/program.PNG)
 
 # **Shortcuts**
 
