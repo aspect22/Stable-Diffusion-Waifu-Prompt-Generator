@@ -69,11 +69,29 @@ make
 ```
 
 <br>
-<br>
 
 # **Usage**
 
 ---
+
+## <u>Windows</u>
+
+First open the newly created folder 'build'
+
+```bash
+cd build
+```
+
+Now run the program using the following command
+
+```bash
+main.exe
+```
+
+The menu will now open and you can start using the program.  
+Go into the menu and select the option 'instructions' to get a detailed explanation of how to use the program.
+
+## <u>Linux</u>
 
 First open the newly created folder 'build'
 
