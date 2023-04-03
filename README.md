@@ -67,8 +67,6 @@ make
 
 # **Usage**
 
----
-
 ## <u>Windows</u>
 
 First open the newly created folder 'build'
