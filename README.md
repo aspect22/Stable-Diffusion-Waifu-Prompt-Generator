@@ -13,6 +13,8 @@ It is made for mostly anime characters but probably also works with other types 
   - [Windows](#Windows)
   - [Linux](#Linux)
 - [Usage](#Usage)
+  - [Windows](#Windows-1)
+  - [Linux](#Linux-1)
 - [Examples / Previews](#Examples)
 - [Credits](#Credits)
   <br>
