@@ -107,8 +107,6 @@ Go into the menu and select the option 'instructions' to get a detailed explanat
 
 ## <u>All examples have been created using the prompts from the generator.</u>
 
-<br>
-
 <u>Prompt:</u> masterpiece, best quality, solo, 1girl, bunny_ears, animal_ears, bunny_tail, bunnygirl, red_hair, medium_hair, pink eyes, dress, ribbon, frilled_apron, maid_uniform, maid_headdress, maid_apron, maid_collar, maid_skirt, maid_gloves, maid_shoes, thighhighs, legwear, average_body, kitchen, happy, standing  
 <u>Negative prompt:</u> (worst quality, low quality:1.4)  
 Steps: 40, Sampler: Euler, CFG scale: 8, Seed: 1833986186, Size: 512x720
