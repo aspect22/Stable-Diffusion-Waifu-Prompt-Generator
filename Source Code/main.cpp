@@ -11,6 +11,7 @@ Config Configuration;
 
 int main()
 {
+    ClearScreen();
     Menu();
     return 0;
 }
@@ -69,7 +70,7 @@ void Menu()
 
 void ClearScreen()
 {
-#ifdef WINDOWS
+#ifdef _WIN32
     std::system("cls");
 #else
     // Assume POSIX
