@@ -7,8 +7,6 @@ It is made for mostly anime characters but probably also works with other types 
 **<u>This program will not generate a image, it will only give you the prompt you can use to generate the image!</u>**
 ![](/Previews/program.png)
 
-<br>
-
 # **Shortcuts**
 
 - [Installation Tutorial](#Installation)
@@ -17,7 +15,6 @@ It is made for mostly anime characters but probably also works with other types 
 - [Usage](#Usage)
 - [Examples / Previews](#Examples)
 - [Credits](#Credits)
-  <br>
   <br>
 
 # **Installation**
@@ -44,8 +41,6 @@ Use 'make' to build the code from source
 make
 ```
 
-<br>
-
 ## <u>Linux</u>
 
 Open the terminal and type in the following commands:
@@ -67,8 +62,6 @@ Use 'make' to build the code from source
 ```bash
 make
 ```
-
-<br>
 
 # **Usage**
 
@@ -107,8 +100,6 @@ Now run the program using the following command
 
 The menu will now open and you can start using the program.  
 Go into the menu and select the option 'instructions' to get a detailed explanation of how to use the program.
-
-<br>
 
 # **Examples**
 
