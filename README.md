@@ -37,10 +37,20 @@ Change the directory to the cloned repository
 cd Stable-Diffusion-Waifu-Prompt-Generator
 ```
 
+Go to the Source Code Folder
+
+```bash
+cd "Source Code"
+```
+
 Use 'make' to build the code from source
 
 ```bash
 make
+
+// If this fails run
+
+make windows
 ```
 
 ## <u>Linux</u>
@@ -57,6 +67,12 @@ Change the directory to the cloned repository
 
 ```bash
 cd Stable-Diffusion-Waifu-Prompt-Generator
+```
+
+Go to the Source Code Folder
+
+```bash
+cd "Source Code"
 ```
 
 Use 'make' to build the code from source
