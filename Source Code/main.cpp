@@ -529,6 +529,10 @@ string Prompt_Builder_Basic()
         {
             GeneratedPrompt += "cow_ears, animal_ears, cow_tail, cowgirl, ";
         }
+        else
+        {
+            GeneratedPrompt += "";
+        }
     }
     else if (prompt.Gender == "boy")
     {
@@ -555,6 +559,10 @@ string Prompt_Builder_Basic()
         else if (prompt.CharacterType == "cow")
         {
             GeneratedPrompt += "cow_ears, animal_ears, cow_tail, cowboy, ";
+        }
+        else
+        {
+            GeneratedPrompt += "";
         }
     }
 
@@ -589,6 +597,10 @@ string Prompt_Builder_Basic()
         {
             GeneratedPrompt += "underwear, bra, panties, underwear_only, ";
         }
+        else
+        {
+            GeneratedPrompt += "";
+        }
     }
     else if (prompt.Gender == "boy")
     {
@@ -620,6 +632,10 @@ string Prompt_Builder_Basic()
         {
             GeneratedPrompt += "underwear, underwear_only, boxers, trunks, ";
         }
+        else
+        {
+            GeneratedPrompt += "";
+        }
     }
 
     // Breasts
@@ -641,6 +657,10 @@ string Prompt_Builder_Basic()
         {
             GeneratedPrompt += prompt.BreastSize + " breasts, huge breast, ";
         }
+        else
+        {
+            GeneratedPrompt += "";
+        }
     }
 
     // Butt
@@ -659,6 +679,10 @@ string Prompt_Builder_Basic()
     else if (prompt.ButtSize == "huge")
     {
         GeneratedPrompt += prompt.ButtSize + " butt, huge_butt, ";
+    }
+    else
+    {
+        GeneratedPrompt += "";
     }
 
     // Location
@@ -1330,6 +1354,7 @@ void Generate_Prompt_Advanced_Questions()
         cout << "----------------------" << endl;
         cout << "Input any extras (Example: 'Skirt, Thigh Highs, Blue Boots, Phone in hand)" << endl;
         cout << "----------------------" << endl;
+        cout << "111. Leave blank" << endl;
         cout << "101. Back one Question" << endl;
         cout << "----------------------" << endl;
         cout << "Enter your choice: ";
@@ -1338,6 +1363,10 @@ void Generate_Prompt_Advanced_Questions()
         {
             question--;
             Generate_Prompt_Advanced_Questions();
+        }
+        if (prompt.Extras == "111")
+        {
+            prompt.Extras = "";
         }
         question++;
     }
@@ -1423,6 +1452,10 @@ string Prompt_Builder_Advanced()
         {
             GeneratedPrompt += "cow_ears, animal_ears, cow_tail, cowgirl, ";
         }
+        else
+        {
+            GeneratedPrompt += "";
+        }
     }
     else if (prompt.Gender == "boy")
     {
@@ -1449,6 +1482,10 @@ string Prompt_Builder_Advanced()
         else if (prompt.CharacterType == "cow")
         {
             GeneratedPrompt += "cow_ears, animal_ears, cow_tail, cowboy, ";
+        }
+        else
+        {
+            GeneratedPrompt += "";
         }
     }
 
@@ -1490,6 +1527,10 @@ string Prompt_Builder_Advanced()
         {
             GeneratedPrompt += "underwear, bra, panties, underwear_only, ";
         }
+        else
+        {
+            GeneratedPrompt += "";
+        }
     }
     else if (prompt.Gender == "boy")
     {
@@ -1521,6 +1562,10 @@ string Prompt_Builder_Advanced()
         {
             GeneratedPrompt += "underwear, underwear_only, boxers, trunks, ";
         }
+        else
+        {
+            GeneratedPrompt += "";
+        }
     }
 
     // Body Type
@@ -1545,6 +1590,10 @@ string Prompt_Builder_Advanced()
         {
             GeneratedPrompt += prompt.BreastSize + " breasts, huge breast, ";
         }
+        else
+        {
+            GeneratedPrompt += "";
+        }
     }
 
     // Butt
@@ -1563,6 +1612,10 @@ string Prompt_Builder_Advanced()
     else if (prompt.ButtSize == "huge")
     {
         GeneratedPrompt += prompt.ButtSize + " butt, huge_butt, ";
+    }
+    else
+    {
+        GeneratedPrompt += "";
     }
 
     // Location
