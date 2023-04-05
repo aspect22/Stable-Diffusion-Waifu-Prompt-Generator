@@ -23,15 +23,16 @@ It is made for mostly anime characters but probably also works with other types 
 
 ## <u>Windows</u>
 
-Open the cmd and type in the following commands:
+Open the command prompt by typing "cmd" into the Start menu search bar and selecting the "Command Prompt" app.   
+Or use the keyboard shortcut WindowKey+R and type cmd
 
-Clone the Repository
+Clone the repository by typing the following command:
 
 ```bash
 git clone https://github.com/aspect22/Stable-Diffusion-Waifu-Prompt-Generator
 ```
 
-Change the directory to the cloned repository
+Change the directory to the cloned repository by typing:
 
 ```bash
 cd Stable-Diffusion-Waifu-Prompt-Generator
@@ -43,21 +44,21 @@ Go to the Source Code Folder
 cd "Source Code"
 ```
 
-Use 'make' to build the code from source
+Build the code from source by typing:
 
 ```bash
 make
-
-// If this fails run
-
+```
+If the build fails, you can try running:
+```bash
 make windows
 ```
 
 ## <u>Linux</u>
 
-Open the terminal and type in the following commands:
+Open the terminal and follow the steps below.
 
-Clone the Repository
+Clone the repository using git clone
 
 ```bash
 git clone https://github.com/aspect22/Stable-Diffusion-Waifu-Prompt-Generator
