@@ -4,6 +4,7 @@ public:
     bool adult_Mode = false;
     bool advanced_Mode = false;
     bool ultra_Horny_Mode = false;
+    bool show_All_Awnsers = true;
 
     void ToggleAdultMode()
     {

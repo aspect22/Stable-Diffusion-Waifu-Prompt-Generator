@@ -11,10 +11,9 @@
 using namespace std;
 
 void Menu();
-void Generate_Prompt_Basic_Questions();
-void Generate_Prompt_Advanced_Questions();
-void Generate_Prompt_Horny();
+void generate_Prompt();
 void Instructions();
+void Sleep(int ms);
 void ClearScreen();
 void Settings();
 string Prompt_Builder_Advanced();
